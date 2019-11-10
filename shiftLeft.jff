@@ -71,13 +71,6 @@
 			<move>L</move>
 		</transition>
 		<transition>
-			<from>5</from>
-			<to>5</to>
-			<read>!□</read>
-			<write/>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>3</from>
 			<to>4</to>
 			<read>A</read>
@@ -90,6 +83,13 @@
 			<read>B</read>
 			<write>B</write>
 			<move>S</move>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>5</to>
+			<read>!□</read>
+			<write>~</write>
+			<move>R</move>
 		</transition>
 		<transition>
 			<from>2</from>
